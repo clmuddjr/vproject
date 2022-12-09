@@ -251,8 +251,8 @@ with st.form(key="Form"):
     # st.write(f'CS {cred_score_cust}')
 
     age_of_customer = st.slider("Please provide the customer's age:", 0, 130, 35)
-    gender = st.radio("What is the customer's gender",
-                      ('Male', 'Female'))
+    #gender = st.radio("What is the customer's gender",
+    #                  ('Male', 'Female'))
 
     frm_pay = st.radio("What form of payment will be used",
                        ('Credit', 'Gift Card', 'Debit', 'Cash'))
@@ -276,11 +276,12 @@ if submit_button:
 
     app_or_rej = clf_use.predict(input_predict_data)
     st.write(f'Score {app_or_rej}')
+    st.write(f{name})
     if app_or_rej[0] == 1:
         st.write(f'You should reject {name}')
 
     else:
-        print("Welcome " + name + " to Verizon!")
+        st.write(f'Welcome ' + name + ' to Verizon!')
 
 with st.form(key="ModelRun"):
 
