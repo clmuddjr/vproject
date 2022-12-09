@@ -1,0 +1,6 @@
+imbalanced-learn @ file:///home/conda/feedstock_root/build_artifacts/imbalanced-learn_1652728311148/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow==9.3.0
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1669930603134/work
+tables @ file:///Users/runner/miniforge3/conda-bld/pytables_1666850193533/work
+tabulate==0.9.0
