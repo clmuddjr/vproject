@@ -276,7 +276,7 @@ if submit_button:
 
     app_or_rej = clf_use.predict(input_predict_data)
     st.write(f'Score {app_or_rej}')
-    st.write(f{name})
+    st.write(f'{name}')
     if app_or_rej[0] == 1:
         st.write(f'You should reject {name}')
 
