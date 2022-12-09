@@ -1,0 +1,11 @@
+beautifulsoup4 
+imbalanced-learn
+importlib-metadata 
+importlib-resources
+kaleido==0.2.1
+plotly==5.7.0
+scikit-learn
+scipy==1.9.3
+statsmodels 
+streamlit 
+urllib3 
